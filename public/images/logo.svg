@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Ventura logo</title>
+
+  <!-- soft drop shadow for subtle depth -->
+  <defs>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+
+  <!-- Group with shadow -->
+  <g filter="url(#softShadow)">
+    <!-- Main text: use common sans-serif stack (no @import so file stays standalone) -->
+    <text x="40" y="112"
+          font-family="Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          font-weight="700"
+          font-size="96"
+          letter-spacing="-1"
+          fill="#FFFFFF"
+          dominant-baseline="alphabetic">
+      Ventura<tspan fill="#FF3B30" font-weight="900" dx="6">.</tspan>
+    </text>
+  </g>
+</svg>
